@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>タイトルを表示</title>
+    <style>
+        .image-container {
+            position: relative;
+            display: inline-block;
+        }
+        .image-container img {
+            display: block;
+        }
+        .image-container .title {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: white;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="sample.png" alt="画像の説明">
+        <div class="title">画像のタイトル</div>
+    </div>
+</body>
+</html>
